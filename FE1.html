@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Herbal Garden</title>
+    <link rel="stylesheet" href="fecss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="welcome">
+            <h1>Welcome to Virtual Herbal Garden</h1>
+            <p>Discover the magic of medicinal plants that nurture your health and well-being.</p>
+        </div>
+        <nav>
+            <input type="text" id="search-box" placeholder="Search for plants...">
+            <button id="search-button">Search</button>
+            <div class="dropdown">
+                <button class="dropbtn">Virtual Tours</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="startTour('digestive-health')">Digestive Health</a>
+                    <a href="#" onclick="startTour('immunity')">Immunity Boosters</a>
+                    <a href="#" onclick="startTour('skin-care')">Skin Care</a>
+                </div>
+            </div>
+            <button id="login-button">Login</button>
+        </nav>
+    </header>
+    <main>
+        <section id="plant-list">
+            <h2>Medicinal Plants</h2>
+            <div id="plants-container">
+                <!-- Plant Cards with More Colors and Styles -->
+                <div class="plant-card" onclick="showPlantDetails('aloe-vera')" style="background-color: #ffffee;">
+                    <img src="https://www.kew.org/sites/default/files/styles/original/public/2020-04/Aloe_Vera.jpg.webp?itok=nuAtuuf1" alt="Aloe Vera">
+                    <h3>Aloe Vera</h3>
+                    <p>Botanical Name: Aloe barbadensis</p>
+                </div>
+                <div class="plant-card" onclick="showPlantDetails('tulsi')" style="background-color: #ffffee;">
+                    <img src="https://www.trustbasket.com/cdn/shop/articles/Tulsi.jpg?v=1687508866" alt="Tulsi">
+                    <h3>Tulsi</h3>
+                    <p>Botanical Name: Ocimum sanctum</p>
+                </div>
+                <div class="plant-card" onclick="showPlantDetails('lavender')" style="background-color: #ffffee;">
+                    <img src="https://i0.wp.com/omasgardens.com/wp-content/uploads/2023/01/20180921_0837032.jpg?resize=2000%2C1200&ssl=1" alt="Lavender">
+                    <h3>Lavender</h3>
+                    <p>Botanical Name: Lavandula angustifolia</p>
+                </div>
+                <div class="plant-card" onclick="showPlantDetails('mint')" style="background-color: #ffffee;">
+                    <img src="https://i.herbalreality.com/wp-content/uploads/2020/08/21125815/mint-5274718_1920-600x401.jpg" alt="Mint">
+                    <h3>Mint</h3>
+                    <p>Botanical Name: Mentha</p>
+                </div>
+                <div class="plant-card" onclick="showPlantDetails('chamomile')" style="background-color: #ffffee;">
+                    <img src="https://www.shutterstock.com/image-photo/meadow-white-chamomile-flowers-morning-600nw-1909600870.jpg" alt="Chamomile">
+                    <h3>Chamomile</h3>
+                    <p>Botanical Name: Matricaria chamomilla</p>
+                </div>
+            </div>
+        </section>
+        <aside id="plant-info">
+            <h3>Plant Information</h3>
+            <div id="plant-details"></div>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Virtual Herbal Garden - Embrace Nature's Remedies</p>
+    </footer>
+<!-- Login Modal -->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="close-login">&times;</span>
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="login-username">Username</label>
+            <input type="text" id="login-username" placeholder="Enter your username" required>
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" placeholder="Enter your password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p id="login-message"></p>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
