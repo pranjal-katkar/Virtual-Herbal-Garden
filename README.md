@@ -54,3 +54,5 @@ Follow these simple steps to set up and use the project:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/virtual-herbal-garden.git
+## Future Scope:
+The future scope of the Virtual Herbal Garden project includes expanding the plant database, adding personalized plant recommendations, integrating user profiles and plant care reminders, implementing AR/VR for plant visualization, and introducing features like plant health monitoring, community forums, e-commerce, and multilingual support. Additionally, AI-driven suggestions, seasonal guides, and partnerships with botanical experts could enhance the user experience, making it a comprehensive platform for learning, sharing, and gardening.
