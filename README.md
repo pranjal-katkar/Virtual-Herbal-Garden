@@ -1,5 +1,4 @@
-<h1 style="font-family: Arial; color: darkgreen;">Welcome to the Virtual Herbal Garden</h1>
-<p style="font-family: Georgia; color: brown;">Discover medicinal plants that nurture your health.</p>
+# Largest Header
 
 
 ## Description
