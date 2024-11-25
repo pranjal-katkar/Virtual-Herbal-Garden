@@ -1,4 +1,6 @@
-Virtual Herbal Garden - Beginner's Project 🌿
+<h1 style="font-family: Arial; color: darkgreen;">Welcome to the Virtual Herbal Garden</h1>
+<p style="font-family: Georgia; color: brown;">Discover medicinal plants that nurture your health.</p>
+
 ## Description
 The Virtual Herbal Garden is a beginner-friendly web application designed to introduce users to the world of medicinal plants and their numerous benefits. This project focuses on building a visually appealing and interactive interface using fundamental web development technologies. Users can explore a curated collection of medicinal plants, learn about their botanical names, benefits, and care instructions, and enjoy a simple yet elegant design.
 
